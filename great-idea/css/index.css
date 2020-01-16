@@ -92,7 +92,8 @@ a {
 .title{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-end;
+	align-items: center;
 	width: 49%;
 	padding: 5%;
 }
@@ -105,6 +106,8 @@ a {
 	font-size: 20px;
 	padding: 1%;
 	border: 3px outset slategray;
+	width: 50%;
+
 }
 
 .title button:hover{
@@ -127,21 +130,30 @@ a {
 /* ========== Middle Body ==========*/
 
 .mainbody {
-	margin: 0% 5%;
-	padding: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-top: 5%;
+	margin: 5% 5% 0% 5%;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
-	width: 90%;
+	
+
 }
 
-.mainbody .top-left  {
-	display: inline-block;
-	width: 47%;
+.mainbody .top {
+	display: flex;
+	justify-content: space-evenly;
+	
 }
+.mainbody .top-left{
+	width: 45%;
+	font-size: 20px;
 
+}
 .mainbody .top-right {
-	display: inline-block;
-	width: 47%;
+	width: 45%;
+	font-size: 20px;
 
 }
 
