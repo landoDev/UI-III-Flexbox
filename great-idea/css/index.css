@@ -73,34 +73,27 @@ h1, h2, h3, h4, h5 {
 }
 /* ==== NavBar ====*/
 .navbar{
-	display: inline;
-	margin: 0% 30%%;
-	height: 2%;
-	width: 0% auto;
-	padding: 0% 9%
+	display: flex;
+	justify-content: space-evenly;
 	
 	
 }
 a {
-	padding: 3%;
-	width: auto;
+	padding: 1%;
 	color: slategray;
 	text-decoration-line: none;
 }
 
-img{
-	margin-left: 10%;
-	margin-right: 0%;
-	margin-top: 1%
-
-}
 /* ========= Header =========== */
 
+.header {
+	display: flex;
+	display: space-evenly;
 
+
+}
 
 .title{
-	display: inline-block;
-	margin: 0% 0% 10% 15%;
 	
 
 }
@@ -118,7 +111,6 @@ img{
 
 .title button{
 	font-size: 20px;
-	margin-left: 36%;
 	padding-bottom:	40%;
 	padding: 1%;
 	border: 3px outset slategray;
@@ -129,8 +121,7 @@ img{
 }
 
 .title-img{
-	display: inline;
-	margin-left: 10%;
+
 	padding-top: 10%;
 
 
@@ -138,7 +129,7 @@ img{
 
 .title-img img {
 	padding: 5%;
-	margin-top: 1%;
+
 }
 
 /* ========== Middle Body ==========*/
