@@ -134,6 +134,7 @@ a {
 	flex-direction: column;
 	justify-content: space-evenly;
 	padding-top: 5%;
+	padding-bottom: 5%;
 	margin: 5% 5% 0% 5%;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
@@ -157,24 +158,38 @@ a {
 
 }
 
-.middle-img {
-	margin: 5%;
-	padding-left: 8%;
+/* NOT SURE HOW TO MAKE IMG BIGGER */
+#bodyimg {
+	display:flex;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
 }
 
+.middle-img {
+	padding: 5%;
+}
+
+.bottom{
+	display: flex;
+	justify-content: space-evenly;
+}
 .mainbody .bottom-left {
-	display: inline-block;
 	width: 32%;
+	font-size: 20px;
+
 }
 
 .mainbody .bottom-middle {
-	display: inline-block;
 	width: 32%;
+	font-size: 20px;
+
 }
 
 .mainbody .bottom-right {
-	display: inline-block;
 	width: 32%;
+	font-size: 20px;
+
 }
 
  /* ========== Footer ========== */
