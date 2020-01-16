@@ -67,9 +67,7 @@ h1, h2, h3, h4, h5 {
 
 * {
 	box-sizing:border-box;
-  	padding:0;
-  	margin:0;
- 	max-width:100%;
+	border: 5px solid black;
 }
 /* ==== NavBar ====*/
 .navbar{
@@ -88,30 +86,23 @@ a {
 
 .header {
 	display: flex;
-	display: space-evenly;
-
-
+	display: space-evenly];
 }
 
 .title{
-	
-
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 49%;
+	padding: 5%;
 }
-.topblock {
-	width: 47%%;
-
-}
-
 .title h1 {
 	font-size: 80px;
 	text-align: center;
-	padding-left: 10%;
-	padding-bottom: 10%;
 }
 
 .title button{
 	font-size: 20px;
-	padding-bottom:	40%;
 	padding: 1%;
 	border: 3px outset slategray;
 }
@@ -121,8 +112,9 @@ a {
 }
 
 .title-img{
-
-	padding-top: 10%;
+	display: flex;
+	width: 49%;
+	justify-content: center;
 
 
 }
