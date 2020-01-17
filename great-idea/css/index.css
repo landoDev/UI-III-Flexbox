@@ -86,7 +86,13 @@ a {
 
 .header {
 	display: flex;
-	display: space-evenly];
+	justify-content: space-evenly;
+}
+
+.services-header {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
 }
 
 .title{
@@ -127,7 +133,13 @@ a {
 
 }
 
-/* ========== Middle Body ==========*/
+.services-title{
+	display: flex;
+	flex-direction: column;
+	padding-top: 2%;
+}
+
+/* ========== Body ==========*/
 
 .mainbody {
 	display: flex;
