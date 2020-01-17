@@ -92,7 +92,8 @@ a {
 .services-header {
 	display: flex;
 	flex-direction: column;
-	padding: 2%;
+	justify-content: center;
+	margin: 0% 5% 0% 5%;
 }
 
 .title{
@@ -136,6 +137,7 @@ a {
 .services-title{
 	display: flex;
 	flex-direction: column;
+	font-size: 25px;
 	padding-top: 2%;
 }
 
@@ -204,16 +206,102 @@ a {
 
 }
 
+/* ===== Services Body ===== */
+.toprow {
+	display: flex;
+	justify-content: space-evenly;
+	flex-flow: nowrap;
+	padding: 1%;
+}
+
+.toprow .top-left{
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	font-size: 20px;
+	border: 2px solid black;
+	background: cyan;
+
+}
+
+button {
+	width: 30%;
+	margin-top: 5%;
+	font-size: 20px;
+	border: 1px solid slategray;
+	border-radius: 10px;
+}
+.toprow .top-right{
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	font-size: 20px;
+	border: 2px solid black;
+	background: cyan;
+}
+.midrow {
+	display: flex;
+	justify-content: space-evenly;
+	flex-flow: nowrap;
+	padding 1%;
+}
+
+.midrow .m-left {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	width: 45%;
+	border: 2px solid black;
+	font-size: 20px;
+	margin-left: 1%;
+	background: cyan;
+}
+.midrow .m-right {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	width: 45%;
+	font-size: 20px;
+	margin-right: 1%;
+	border: 2px solid black;
+	background: cyan;
+}
+.bottomrow {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 1%;
+	
+}
+
+.bottomrow .b-left {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	width: 45%;
+	font-size: 20px;
+	border: 2px solid black;
+	background: cyan;
+}
+.bottomrow .b-right {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	width: 45%;
+	font-size: 20px;
+	border: 2px solid black;
+	background: cyan;
+}
+
+
  /* ========== Footer ========== */
 
  footer {
 	display: flex;
-	flex-direction: column;
-	width: 50%;
 	margin-top: 3%;
 	margin-left: 5%;
 	
  }
+
 
  #copyright {
 	display: flex;
